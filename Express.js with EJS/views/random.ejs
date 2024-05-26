@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Number Paget</title>
+</head>
+<body>
+    <h1>Random Number</h1>
+    <h3>random number is: <%= number %></h3>
+    <% if(number%2 == 0) {%>
+        <h3>Genap</h3>
+    <% } else {%>
+        <h3>Ganjil</h3>
+    <% } %>
+    <h2>Menggunakan ternary operator</h2>
+    <h3> <%= number%2 == 0 ? 'Genap' : 'Ganjil' %> </h3>
+</body>
+</html>
